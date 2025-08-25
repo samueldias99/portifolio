@@ -1,41 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
-    color: #00FF00; /* Neon verde */
-    font-family: Arial, sans-serif;
+    color: white; /* Texto branco */
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
     text-align: center;
-    padding: 20px;
+    padding: 50px 20px;
+    border-bottom: 2px solid #00FF00;
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
 }
 
 main {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    padding: 20px;
+    align-items: center;
+    padding: 40px 20px;
 }
 
-.sobre {
-    text-align: center;
+section {
+    background-color: rgba(128, 128, 128, 0.8); /* Fundo cinza */
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5); /* Sombra neon */
 }
 
 .sobre img {
     width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
     border-radius: 50%; /* Para deixar a imagem redonda */
+    border: 3px solid #00FF00; /* Borda verde neon */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #00FF00; /* Títulos em verde neon */
+}
+
+ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
-    position: fixed;
+    padding: 20px;
+    position: relative;
     bottom: 0;
     width: 100%;
+    border-top: 2px solid #00FF00;
 }
