@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neon-green: #00ff41;
+  --dark-bg: #0a0a0a;
+  --card-bg: #111111;
+  --border-color: #1a1a1a;
+  --text-primary: #ffffff;
+  --text-secondary: #a1a1aa;
+}
+
+body {
+  background: var(--dark-bg);
+  color: var(--text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.glow {
+  box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+}
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+}
+
+.border-glow {
+  border: 1px solid rgba(0, 255, 65, 0.3);
+}
+
+.bg-gradient-cyber {
+  background: linear-gradient(135deg, #0a0a0a 0%, #111111 50%, #0a0a0a 100%);
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 25px rgba(0, 255, 65, 0.4);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
