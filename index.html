@@ -3,25 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Samuel Dias</title>
+    <title>Portfólio - Segurança Cibernética</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Samuel Dias</h1>
-        <p>Em busca de oportunidades na área de Segurança Cibernética</p>
+        <h1>Seu Nome</h1>
+        <p>Sou estudante de Segurança Cibernética, apaixonado por tecnologia, redes e proteção digital.</p>
+        <a href="https://www.linkedin.com/in/seu-perfil" target="_blank" class="btn">Acessar meu LinkedIn</a>
     </header>
-    <main>
-        <section class="sobre">
-            <img src="sua_foto.jpg" alt="Foto de Samuel Dias">
-            <h2>Sobre Mim</h2>
-            <p>Atualmente, estou cursando Segurança Cibernética na Uniasselvi e busco um estágio ou uma oportunidade de emprego.</p>
-            <p>Você pode me contatar pelo e-mail: <a href="mailto:samueldias84@proton.me">samueldias84@proton.me</a></p>
-        </section>
-    </main>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#cursos">Cursos Concluídos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Breve descrição da sua jornada acadêmica e objetivo de conseguir estágio ou oportunidade na área de cibersegurança.</p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Noções de Redes de Computadores</li>
+            <li>Linux</li>
+            <li>Python</li>
+            <li>Uso de Inteligência Artificial para desenvolvimento e automação</li>
+            <li>Trilha TryHackMe - Progresso/estatísticas</li>
+        </ul>
+    </section>
+
+    <section id="cursos">
+        <h2>Cursos Concluídos</h2>
+        <ul>
+            <li>Python para Hackers</li>
+            <li>Redes para Segurança da Informação</li>
+            <li>Deep Web</li>
+            <li>Introdução à Segurança da Informação</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Conecte-se comigo: <a href="https://www.linkedin.com/in/seu-perfil" target="_blank">LinkedIn</a> | <a href="mailto:seuemail@example.com">E-mail</a></p>
+    </section>
+
     <footer>
-        <p>&copy; 2025 Samuel Dias. Todos os direitos reservados.</p>
+        <p>&copy; 2023 Seu Nome. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
